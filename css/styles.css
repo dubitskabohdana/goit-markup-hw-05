@@ -37,7 +37,7 @@ font-weight: 700;
        .list-header {
        color: #2e2f42; }
            .list-header:hover,
-          .list-header:hover {color:#404bbf ;}
+          .list-header:focus {color:#404bbf ;}
           
  .address {font-weight: 400;
     font-size: 16px;
@@ -54,8 +54,7 @@ font-weight: 700;
     font-style: normal;
  }
 .section-header-page { background-color: #2e2f42;
-    width: 1440px;
-        height: 600px;
+   
 }
 .header-page {
 
@@ -110,8 +109,7 @@ button:focus       {
 
       .section-back-team {
         background-color: #f4f4fd;;
-        width: 1440px;
-        height: 732px;}
+        }
 
         .section-team {
             text-transform: capitalize;
@@ -175,8 +173,7 @@ button:focus       {
 
         .footer-page {
             background-color: #2e2f42;
-            width: 1440px;
-            height: 312px;
+            
         }
     .logo-footer {
         font-family: "Raleway", sans-serif;
