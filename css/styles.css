@@ -63,6 +63,13 @@ main {
  .page-header-start {border-bottom: 1px solid #e7e9fc;
 
  }
+ .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;}
 .logo{
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -132,7 +139,7 @@ align-items: center;
     font-style: normal;
     display: flex;
     gap: 40px;
-   
+padding: 24px 0;
 }
     
 .section-head-page { background-color: #2e2f42;
@@ -367,22 +374,23 @@ button:focus       {
            justify-content: flex-start;
             
         }
-    .logo-footer {
-        font-family: "Raleway", sans-serif;
+    .logo-footer {font-family:
+            "Raleway", sans-serif;
+        color: #4d5ae5;
         font-weight: 700;
-            font-size: 18px;
-            /* line-height: 21px; */
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color:#4d5ae5 ;
-            margin-bottom: 16px;
-            display: inline-block;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 100px;
+        margin-left: 156px;
+        margin-bottom: 16px;
+            
     }
-    .item-location a {
-        
-    }
-     .logo-color-footer{ color:#f4f4fd ;}
+    
+     .logo-color-footer{color:#f4f4fd ;}
        
       .text-footer {font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -394,4 +402,5 @@ button:focus       {
           height: 72px;
          width: 264px;
          margin:0;
+        margin-left: 156px;
       }
