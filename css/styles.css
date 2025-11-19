@@ -50,10 +50,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 0;
+   
     align-items:baseline;
-    padding-left: 15px;
-    padding-right: 15px;}
+    padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 15px;
+        padding-right: 15px;}
     
   
  .page-header-start {border-bottom: 1px solid #e7e9fc;
@@ -64,10 +66,8 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+    margin: 0 auto;}
+    
         
 .logo{
     font-family: "Raleway", sans-serif;
