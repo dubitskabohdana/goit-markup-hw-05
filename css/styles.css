@@ -136,14 +136,18 @@ font-weight: 700;
     gap: 40px;
 
 }
-    
-.section-head-page { 
-    background-color: #2e2f42;
+
+ .section-head-page { 
+    background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7)),
+    url("../images/people-office\ 1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
     padding-top: 188px;
     padding-bottom: 188px;
-}
+ }
 
-.header-page {
+ .header-page {
     font-weight: 700;
     font-size: 56px;
     /* line-height: 60px; */
@@ -201,7 +205,21 @@ button:focus       {
     justify-content: space-between;
     display: flex;
         gap: 24px;
+
 }
+.svg-adv{border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .first-list {
     width: calc((100% - 72px) / 4);
 }
@@ -212,6 +230,7 @@ button:focus       {
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #434455; 
+    
         
         }
 
@@ -227,14 +246,11 @@ button:focus       {
 
       .section-back-team {
         background-color: #f4f4fd;
-        height: 732px;
+        height: 780px;
         min-width: 100%;
         padding: 120px 0;
         }
-.container-team {
-    padding: 32px 0;
 
-}
         .section-team-title {
                 text-transform: capitalize;
                 font-weight: 700;
@@ -252,10 +268,16 @@ button:focus       {
             flex-direction: column;
             border: 264px 380px; 
             border-radius: 0px 0px 4px 4px;
+            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                background: #fff;
+                width: 264px;
+               
+                
         }
          .list-team {
             display: flex;
             gap: 24px;
+            justify-content: center;
          }
             .section-list-team h3 {
                 font-weight: 500;
@@ -266,11 +288,12 @@ button:focus       {
                     text-align: center;
                     color: #2e2f42; 
                     margin-bottom: 8px;
+                    margin-top: 32px;
                    
             }
                     
          .section-list-team p {
-                font-weight: 400;
+                font-weight: 400px;
                 font-size: 16px;
             
                 /* line-height: 24px; */
@@ -278,7 +301,40 @@ button:focus       {
                 letter-spacing: 0.02em;
                 text-align: center;
                 color: #434455;
+                margin-bottom: 8px;
         }
+  .svg-contact-all {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 32px;
+      gap: 24px;
+    
+
+  }
+
+  .svg-contact {
+        width: 40px;
+        height: 40px;
+        background-color: #4D5AE5;
+        border-radius: 50%;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: #ffffff;
+        
+      }
+      .svg-contact use {
+         width: 16px;
+    height: 16px;
+    fill: #ffffff;
+      }
+        .svg-contact:hover{
+            background-color: #31D0AA;
+
+        }
+      
+  
       .section-portfolio {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -342,7 +398,8 @@ button:focus       {
             background-color: #2e2f42;
             min-width: 100%;
             padding-top: 100px;
-            padding-bottom: 100px;
+            padding-bottom: 100px; 
+            
         }
         
         .item-location {
@@ -377,3 +434,22 @@ button:focus       {
             margin:0;
            
       }
+        .media-footer{
+            font-weight: 500;
+                font-size: 16px;
+            
+                /* line-height: 24px; */
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #fff;
+        }
+        .svg-contact-footer{
+        background-color: #4D5AE5;
+            border-radius: 50%;
+            width: 40px;
+            gap:16px;
+
+        }
+                .svg-footer {
+                    
+                }        
