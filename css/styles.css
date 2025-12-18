@@ -216,7 +216,7 @@ font-weight: 700;
 }
 
 .header-page-button {
-    transition: background-color 250ms ease;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -377,15 +377,14 @@ display: flex;
     display: block;
     width: 16px;
    height: 16px;
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
       } 
           .svg-contact{
             overflow:visible;
           }
-        .svg-contact:hover {
-            background-color: #31D0AA;
-            
-
+        .svg-contact:hover
+        .svg-contact:focus {
+            background-color: #404bbf;
         }
       
   .portfolio-img-wrapper {
@@ -435,7 +434,7 @@ display: flex;
          transform: translateY(0);
         }
            .list-hidden {
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
            }
         .list-hidden:hover {
                             box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -494,9 +493,8 @@ display: flex;
         }
      .footer-container {
         display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-        
+        gap:120px;
 
      }
         
@@ -537,7 +535,7 @@ display: flex;
       .socials-footer {
 display: flex;
 flex-direction: column;
-padding-right:550px ;
+
 
       }
 
@@ -560,7 +558,7 @@ padding-right:550px ;
             display: flex;
             fill: #ffffff;
             overflow: visible;
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
                  .svg-contact-footer use {
@@ -577,7 +575,8 @@ padding-right:550px ;
                      height: 40px;
                  }
         
-                 .svg-contact-footer:hover {           
+                 .svg-contact-footer:hover
+                .svg-contact-footer:focus {           
         background-color: #31D0AA;
                  }
                 .svg-footer {
