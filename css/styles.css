@@ -563,7 +563,7 @@ flex-direction: column;
             overflow: visible;
             transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-
+    
                  .svg-contact-footer use {
                      
                      display: block;
@@ -589,19 +589,87 @@ flex-direction: column;
                     display: flex;
                     gap: 16px;
       
-                }        
+                }     
+                
+   .email-footer {
+         border: 1px solid #fff;
+    border-radius: 4px;
+     width: 264px;
+     height: 40px;
+     background-color: transparent;
+      padding: 8px 16px;
+       color: #fff;
+     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     margin-right: 24px;
+                   }
+                
+                                .email-footer:focus {
+                                    border-color: #31D0AA;
+                                    outline: none;
+                                }
+                
+                                .email-footer::placeholder {
+                                    font-size: 12px;
+                                    /* line-height: 24px; */
+                                    line-height: 2;
+                                    letter-spacing: 0.04em;
+                                    color: #fff;
+                                }
+
+                  .Subscribe-footer{
+                    display: inline-flex;
+
+                  }
+                  
+
+                                .button-footer {
+                                    display: flex;
+                                    align-items: center;
+                                   
+                                    justify-content: center;
+                                    gap: 8px;
+                                    
+                
+                                    border-radius: 4px;
+                                    padding: 8px 24px;
+                                    min-width: 165px;
+                                    height: 40px;
+                                    background-color: #4d5ae5;
+                                    cursor: pointer;
+                                    border: none;
+                
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 1;
+                                    letter-spacing: 0.04em;
+                                    color: #fff;
+                                    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                }
+
+         .button-footer:focus,
+         .button-footer:hover
+         {background-color: #31d0aa;  }
+
+                .icon-telegram {
+                display: flex;
+                    align-items: center;
+                    fill: #fff;
+                }
+
+
 
             .hide-popup{
                 opacity: 0;
                 pointer-events: none;
                 user-select: none;
-
+              visibility: hidden;
             
             }
 
             .hide-popup.is-open {
                 opacity: 1;
                     pointer-events: auto;
+                    visibility: visible;
              }
 
           .backform  {
@@ -630,7 +698,7 @@ flex-direction: column;
             padding-right: 24px;       }
 
 
-                          .close-popup {
+        .close-popup {
                                      position: absolute;
                                      top: 24px;
                                      right: 24px;
